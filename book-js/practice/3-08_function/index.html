@@ -20,7 +20,7 @@
         <main>
             <div class="container">
                 <section>
-
+                    <p id="output"></p>
                 </section>
             </div><!-- /.container -->
         </main>
@@ -38,6 +38,7 @@
             }
 
             console.log('コーヒーメーカーの値段は' + total(8000) + '円(税込)です。');
+            document.getElementById('output').textContent = 'コーヒーメーカーの値段は' + total(8000) + '円(税込)です。';
         </script>
     </body>
 </html>
